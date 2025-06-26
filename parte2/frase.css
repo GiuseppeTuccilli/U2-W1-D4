@@ -30,15 +30,54 @@ p{
             position: relative;
 }
 
+@keyframes roll{
+
+0%{
+  bottom: 100px
+}
+
+30%{
+    bottom:0;
+}
+
+35%{
+    bottom:0;
+}
+
+60%{
+    bottom: -128px;
+}
+
+65%{
+        bottom: -128px;
+}
+
+95%{
+        bottom: -255px;
+
+}
+
+100%{
+        bottom: -255px;
+
+}
+
+
+
+}
+
 span{
         display: flex;
     flex-direction: column;
     position: absolute;
     left: 308px;
-    bottom: 0px;
+    bottom: 100px;
+    animation: roll 5s linear 0s ;
 }
 
 i{
     padding-top:4em;
     color: #6A889C;
 }
+
+
