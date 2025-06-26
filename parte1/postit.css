@@ -17,6 +17,16 @@ h3{
     margin-top: 0;
 }
 
+@keyframes stomp{
+    0%{
+        transform: scale(4);
+    }
+
+    100%{
+        transform: scale(1);
+    }
+}
+
 .card{
     width: 200px;
     height: 150px;
@@ -32,14 +42,17 @@ h3{
 
 #c1, #c5, #c7{
     background: linear-gradient(0deg, rgba(166, 166, 166, 1) 0%, rgba(248, 248, 198, 1) 35%);
+    animation: stomp 0.5s linear;
 }
 
 #c2, #c4, #c8{
     background: linear-gradient(0deg,rgba(166, 166, 166, 1) 0%, rgba(199, 246, 201, 1) 35%);
+    animation: stomp 0.3s linear;
 }
 
 #c3, #c6{
     background: linear-gradient(0deg,rgba(166, 166, 166, 1) 0%, rgba(198, 198, 241, 1) 35%);
+    animation: stomp 0.2s linear;
 
 }
 
