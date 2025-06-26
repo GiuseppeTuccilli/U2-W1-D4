@@ -8,3 +8,37 @@
 7 ritardare progressivamente l'animazione delle altre 2 parole 
 */
 
+main{
+    display: flex;
+    justify-content: center;
+    padding: 2em;
+    padding-top: 10em;
+}
+
+div{
+        border: 3px solid black;
+    padding: 2em;
+    width: 600px;
+}
+
+p{
+    font-size: 1.5em;
+    line-height: 1.3em;
+    font-family: Arial, Helvetica, sans-serif;
+        font-weight: 600;
+            color: #333333;
+            position: relative;
+}
+
+span{
+        display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 308px;
+    bottom: 0px;
+}
+
+i{
+    padding-top:4em;
+    color: #6A889C;
+}
